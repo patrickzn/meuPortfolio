@@ -14,7 +14,9 @@ nav {
 body {
     background-color: #13131f;
     transition: .5s;
+    
 }
+
 
 
 h2 {
@@ -22,24 +24,38 @@ h2 {
 }
 
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block; 
+    text-align: left; 
+}
+
+strong {
+    display: inline-block;
+   
+    text-align: left; 
+}
+
 
 .navbar-brand {
     color: #ffffff;
 }
 
 h1 {
-    color: rgb(24, 17, 222);
+    color: #ffffff;
 }
 
 h2.titulo{
     color: #fff;
     font-size: 38px;
-    text-align: center;
+    
     padding-top: 500px;
 }
 
 span.hab{
-    color: rgb(24, 17, 222);
+    color: #ffffff;
 }
 
 
@@ -57,8 +73,8 @@ p {
 }
  
 .pklogo{
-    height: 60px;
-    width: 60px;
+    height: 150px;
+    width: 150px;
     margin-top: -3px;
     margin-left: 100px;
 }
@@ -80,14 +96,14 @@ nav {
    justify-content: space-around;
    font-family: 'poppins', sans-serif;
    margin-top: 0px;
-   border-bottom: 2px solid #6e06bd;
+   border-bottom: 2px solid#ffffff;
     }
 
     .menu nav a::after{
         content: " ";
         width: 30px;
         height: 4px;
-        background-image: linear-gradient(45deg,  rgb(24, 17, 222)  rgb(7, 4, 87) );
+        background-image: linear-gradient(45deg, #ffffff  rgb(7, 4, 87) );
         position: absolute;
         top:0;
     }
@@ -110,7 +126,7 @@ nav ul li:hover {background:none; transition: 1s linear}
  
         .nav-itens>li>a {
             padding-left: 50px;
-            color:  rgb(24, 17, 222);
+            color: #ffffff;
             text-decoration: none;
             align-items: center;
             margin-top: 200px;
@@ -122,7 +138,7 @@ nav ul li:hover {background:none; transition: 1s linear}
         .logo {
             font-weight: 800px;
             font-size: 25px;
-            color:  rgb(24, 17, 222);   
+            color:  #ffffff;   
         }
 
     
@@ -132,11 +148,11 @@ nav ul li:hover {background:none; transition: 1s linear}
 }
 
 span.mim{
-    color:  rgb(24, 17, 222);
+    color: #ffffff;
 }
 
 span.at{
-    color:  rgb(24, 17, 222);
+    color: #ffffff;
 }
 
 section.especialidades{
@@ -168,7 +184,7 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box i{
     font-size: 70px;
-    color:rgb(24, 17, 222);
+    color:#ffffff;
 }
 
 .especialidades .especialidades-box h3{
@@ -224,7 +240,7 @@ margin-bottom: 30px;
 }
 
 .sobre .txt-sobre h2 span{
-    color:rgb(24, 17, 222); 
+    color:#ffffff; 
     display: block;
 }
 
@@ -237,7 +253,7 @@ span.exp{
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color:rgb(24, 17, 222); 
+    background-color#ffffff; 
     font-size: 24px;
     cursor: pointer;
     margin: 0 8px;
@@ -245,9 +261,9 @@ span.exp{
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px rgb(24, 17, 222);
+    box-shadow: 0px 0px 8px#ffffff;
     transform: scale(1.05);
-    border:solid 3px #9000ff;
+    border:solid 3px#ffffff;
 }
 
 .interface .titulo2{
@@ -341,7 +357,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: rgb(24, 17, 222);
+    background-color:#ffffff;
     color: #000;
     font-weight: 700;
     cursor: pointer;
@@ -365,11 +381,11 @@ footer .line-footer{
 }
 
 .borda{
-    border-top: 2px solid rgb(24, 17, 222);
+    border-top: 2px solid #ffffff;
 }
 
 footer .line-footer p i{
-    color: rgb(24, 17, 222);
+    color: #ffffff;
     font-size: 22px;
 }
 
@@ -385,45 +401,9 @@ footer .line-footer p a{
     font-size: 25px;
     align-items: center;
 }
-
-.trilho{
-    width: 80px;
-    height: 30px;
-    background-color: #4d4d4d;
-    border-radius: 150px;
-    position: absolute;
-    cursor: pointer;
-   margin-top: 110px;
-  margin-left: 970px;
-}
-
-.trilho .indicador{
-    width: 30px;
-    height: 30px;
-    background-color:  #13131f;
-    border-radius: 50%;
-    transform: scale(.9);
-    position: absolute;
-    left: 0;
-    transition: .5s;
-}
-
-.trilho.dark{
-    background-color: #4d4d4d;
-}
-
-.trilho.dark .indicador{
-    left: 50px;
-    background-color:   #13131f;
-}
-
-body.dark{
-    background-color: #a8a4a4;
-}
-
 .atuacao, .h2, .h3{
     text-align: center;
-    color:rgb(24, 17, 222);  
+    color:#ffffff;  
 margin-bottom: 80px;
 }
 
@@ -446,3 +426,9 @@ margin-bottom: 80px;
     margin-top: -1700px;
     margin-left: 1100px;
 }
+
+.imagem-sobre-nos {
+    margin-bottom: 200px; 
+    
+}
+
